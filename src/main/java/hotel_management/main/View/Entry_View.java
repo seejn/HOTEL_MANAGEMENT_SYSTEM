@@ -30,7 +30,7 @@ public class Entry_View {
 		orderentrycontroller.displayItemDetails();
 		System.out.println("\nEnter Item Id: ");
 		int itemid = scanner.nextInt();
-		System.out.println("\nEnter Item Id: ");
+		System.out.println("\nEnter Quantity: ");
 		int quantity = scanner.nextInt();
 		orderentrycontroller.setOrderDetails(itemid, customerid, quantity);
 		System.out.println("\nOrder Completed\n");
